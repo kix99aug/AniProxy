@@ -1,0 +1,20 @@
+{
+  "name": "aniproxy",
+  "version": "1.0.0",
+  "description": "Make Bahamut anime great again.",
+  "main": "web.js",
+  "keywords": [
+    "heroku"
+  ],
+  "author": "kix",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.16.4",
+    "http": "^0.0.0",
+    "http-proxy": "^1.17.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
