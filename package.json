@@ -2,7 +2,7 @@
   "name": "aniproxy",
   "version": "1.0.0",
   "description": "Make Bahamut anime great again.",
-  "main": "web.js",
+  "main": "app.js",
   "keywords": [
     "heroku"
   ],
@@ -13,6 +13,9 @@
     "express": "^4.16.4",
     "http": "^0.0.0",
     "http-proxy": "^1.17.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   },
   "engines": {
     "node": "10.x"
